@@ -12,3 +12,5 @@ RUN npm install
 
 # Copy SRC
 COPY . .
+
+CMD [ "node", "index.ts" ]
